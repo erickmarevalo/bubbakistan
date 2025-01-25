@@ -1,9 +1,9 @@
 body {
   text-align: center;
   margin-top: 30px;
-  font-family: "Courier";
-  background-color: #fff5e4;
-  color: #ff9494;
+  font-family: sans-serif;
+  background-color: #fcf4f8;
+  color: #add0ef;
   display: flex;
   flex-direction: column;
 }
@@ -16,7 +16,7 @@ form .header {
   display: flex;
   font-size: 20px;
   margin-bottom: 20px;
-  color: #ff9494;
+  color: #add0ef;
 }
 
 .form-group {
@@ -31,19 +31,19 @@ form .header {
   font-size: 15px;
   cursor: pointer;
   margin: 10px;
-  font-family: "courier";
+  font-family: sans-serif;
   margin-bottom: 10px;
   background-color: #ffe3e1;
-  color: #e67373;
+  color: #ffb3c9;
   border-radius: 12px;
   border: 2px solid #ffe3e1;
   transition: 0.3s;
 }
 
 .button:hover {
-  background-color: #ff9494;
+  background-color: #add0ef;
   color: #ffe3e1;
-  border: 2px solid #ff9494;
+  border: 2px solid #add0ef;
 }
 
 input[type="date"] {
@@ -51,10 +51,10 @@ input[type="date"] {
   font-size: 15px;
   cursor: pointer;
   margin: 10px;
-  font-family: "courier";
+  font-family: sans-serif;
   margin-bottom: 10px;
   background-color: #ffe3e1;
-  color: #e67373;
+  color: #ff97cc;
   border-radius: 12px;
   border: 2px solid #ffe3e1;
 }

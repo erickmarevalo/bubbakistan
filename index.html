@@ -11,14 +11,33 @@
     <button class="answerButton" onclick="location.href='thankyou.html'">
       Yes
     </button>
-    <button class="answerButton" id="noButton">I no no wanna o(╥﹏╥)o</button>
+    <button class="answerButton" id="noButton">No 🥺👉👈</button>
     <br />
-    <img src="cat.gif" alt="cat asking question" class="responsive" />
+    <img id="index_image" src="plz1.gif" alt="cat asking question" class="responsive" />
 
     <script>
+      function changeImage(clicks) {
+        var img = document.getElementById("index_image");
+
+        if (clicks === 1) {
+          img.src = "plz2.gif";
+        } else if (clicks === 2) {
+          img.src = "plz3.gif";
+        } else {
+          img.src = "plz4.gif";
+        }
+        return false;
+      }
+
+      let clicks = 0;
+
       document
         .getElementById("noButton")
         .addEventListener("click", function () {
+
+          clicks++;
+          changeImage(clicks);
+
           var yesButton = document.querySelector(
             'button[onclick*="thankyou.html"]'
           );
